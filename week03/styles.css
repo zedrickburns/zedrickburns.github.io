@@ -86,3 +86,11 @@ h3 {
   background-image: header-star-1.gif;
   padding-left: 20px;
 }
+
+blockquote {
+  background-color: #FFE597;
+}
+
+ul {
+  list-style-type: square;
+}
