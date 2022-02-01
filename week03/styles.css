@@ -58,13 +58,10 @@ nav a:hover {
 
 #content {
   background-image: url("trans-bg.gif");
-  border-width: 1px;
-  border-style: solid;
-  border-color: #CCCCCC;
+  border: 1px solid #CCCCCC;
   margin-left: 180px;
   padding: 10px;
 }
-
 footer {
   clear: both;
   text-align: center;
@@ -74,3 +71,8 @@ footer li {
   display: inline;
   padding: 10px;
 }
+
+h1 {
+  color: #8C9273;
+}
+
