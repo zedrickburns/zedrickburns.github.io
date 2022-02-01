@@ -64,3 +64,8 @@ nav a:hover {
   margin-left: 180px;
   padding: 10px;
 }
+
+footer {
+  clear: both;
+  text-align: center;
+}
