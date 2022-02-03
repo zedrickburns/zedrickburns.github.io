@@ -6,7 +6,7 @@ body {
 color: black
     line-height: 140%;
     margin: 30px;
-  background-image: url("zedrickburns.github.io/week03/page-bg.gif");
+  background-image: url("page-bg.gif");
   background-repeat: no-repeat;
     background-attachment: fixed;
   background-color: #F7F3DE;
@@ -85,7 +85,7 @@ h2 {
 }
 
 h3 {
-  background-image: header-star-1.gif;
+  background-image: ("header-star-1.gif");
   padding-left: 20px;
 }
 
