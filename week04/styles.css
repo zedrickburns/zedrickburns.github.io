@@ -19,7 +19,7 @@ main, header, nav, aside, footer, section {
 h2 {
     font-family: 'Cinzel Decorative', cursive;
     color: #2a2a2a;
-text-shadow: 2px 2px 10px black;
+    text-shadow: 2px 2px 10px black;
   }
 header img {
     display: block;
