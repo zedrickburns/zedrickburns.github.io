@@ -136,3 +136,10 @@ html, body {
   footer {
     margin-top: 10px;
   }
+  header nav ul {
+    list-style-type: none;
+    color: #7C1A00;
+  }
+  header nav a:hover {
+    background-color: #029c8f;
+  }
