@@ -1,4 +1,8 @@
-
+body {
+  width: 99%;
+  min-width: 1000px;
+  margin: 0 auto;
+}
 header {
     margin-bottom: 10px;
     display: flex;
