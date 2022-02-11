@@ -1,5 +1,3 @@
-/* || General setup */
-
 html, body {
     margin: 0;
     padding: 0;
@@ -15,8 +13,6 @@ html, body {
     min-width: 800px;
     margin: 0 auto;
   }
-  
-  /* || typography */
   
   h1, h2, h3 {
     font-family: 'Cinzel Decorative', cursive;
@@ -47,8 +43,6 @@ html, body {
     font-size: 1.6rem;
     line-height: 1.5;
   }
-  
-  /* || header layout */
   
   header {
     margin-bottom: 10px;
@@ -106,8 +100,6 @@ html, body {
     color: black;
   
   }
-  
-  /* || main layout */
   
   main {
     display: flex;
