@@ -77,3 +77,6 @@ header nav ul {
 header nav a:hover {
   background-color: #029c8f;
 }
+aside ul {
+  list-style-type: triangle;
+}
