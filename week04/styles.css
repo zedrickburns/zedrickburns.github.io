@@ -78,7 +78,7 @@ header nav a:hover {
   background-color: #029c8f;
 }
 aside ul {
-  list-style-type: triangle;
+  list-style-type: square;
 }
 p {
   text-indent: 50px;
