@@ -80,3 +80,6 @@ header nav a:hover {
 aside ul {
   list-style-type: triangle;
 }
+p {
+  text-indent: 50px;
+}
