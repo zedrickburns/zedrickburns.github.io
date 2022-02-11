@@ -78,7 +78,7 @@ header nav a:hover {
   background-color: #029c8f;
 }
 aside ul {
-  list-style-type: square;
+  list-style-type: lower-alpha;
 }
 p {
   text-indent: 50px;
