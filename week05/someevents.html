@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <title>Some Events</title>
+    <script>
+      var load = "Welcome to the page.";
+      var bu= "Here. A gem.";
+        function showAlert(myText) {
+          alert(myText);
+        }
+    </script>
 </head>
-<body>
-
-    <button onclick="myFunction()">Click me</button>
-
+<body onload="showAlert(load)">
+    <button onclick="showAlert(bu)">Click me</button>
 </body>
 </html>
