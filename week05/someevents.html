@@ -1,30 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Some Events</title>
-    <script>
+<title>Force</title>
+<script>
       var load = "Welcome to the page.";
       var bu= "Here. A gem.";
         function showAlert(myText) {
           alert(myText);
         }
     </script>
-    <style> button {
-        font-size: 1.1em;
-        background-color: #e0e0e0;
-        color: #0084ff;
-        border: 2px solid black;
-        box-shadow: 4px 4px 4px #999999;
-      }
-      button:hover, button:focus, button:active {
-        color: #e0e0e0;
-        background-color: #0084ff;
-        cursor: pointer;
-      }</style>
+<script type="text/javascript">
+ function calculateNewtons (kilo) { var newton; newton = (kilo) * (4); return newton; } var Kilograms; 
+</script>
+   <style> button {
+    font-size: 1.1em;
+    background-color: #fca77c;
+    color: #8d4dcf;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+  }
+  button:hover, button:focus, button:active {
+    /* swap colors */
+    color: #e0e0e0;
+    background-color: #32665a;
+    cursor: pointer; /* displays a hand */
+  }</style>
 </head>
 <body onload="showAlert(load)">
     <button onclick="showAlert(bu)">Press me</button>
     <p>No quote this time, but you can still click the button.</p>
+<script type="text/javascript">
+ Kilograms = prompt("Type in the weight in kilograms to be converted to Newtons", ""); 
+</script>
+<h3>
+<script type="text/javascript">
+ document.write(Kilograms); 
+</script> Kilograms is 
+<script type="text/javascript">
+ document.write(calculateNewtons(Kilograms));
+</script> Newtons.</h3>
+  <p>Touch the button to see something cool:</p>
+  <button onclick="myFunction()">Click me</button>
+	<p id="demo"></p>
+	<script>
+	function myFunction() {
+	document.getElementById("demo").innerHTML = "Hello World!; Congratulations, you clicked the button!";
+	}
+	</script>
 </body>
 </html>
