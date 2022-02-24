@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Clock Page</title>
+    <script>
+    function updateTime() {
+
+      // getting current time
+      var now = new Date();
+      var hours = now.getHours();
+      var minutes = now.getMinutes();
+      var seconds = now.getSeconds();
+      
+      // adding leading zero's to minutes and seconds
+  if (minutes < 10) {
+    minutes = '0' + minutes;
+  }
+  if (seconds < 10) {
+    seconds = '0' + seconds;
+  }
+
+  // getting time of day (am or pm)
+  if (hours >= 12 && hours < 24) {
+    var timeOfDay = 'pm';
+  }
+  else {
+    var timeOfDay = 'am';
+  }
+
+  // converting hours from 24-hour time to 12-hour time
+  if (hours > 12) {
+    hours = hours - 12;
+  }
+  
+      // splice them together into a character string named "currentTime"
+      var currentTime = hours + ':' + minutes + ':' + seconds + '  ' + timeOfDay;
+  
+      // get the clock div
+      var myClock = document.getElementById('clock');
+  
+      // write the currentTime string to the clock div
+      myClock.innerHTML = currentTime;
+    }
+  </script>
+    <style>
+    div#clock {
+      text-align: center;
+      width: 1;
+      margin: 30px;
+      padding: 40px;
+      border: 1px solid #CCCCCC;
+      font-size: 150%;
+      font-family: 'Cinzel Decorative', cursive;
+      font-weight: bold;
+      color: #7C1A00;
+      background-color: #F7F3DE;
+    }
+  </style>
+  </head>
+  <body onload="setInterval('updateTime()',1000)">
+    <h1>Good morning/evening/night.</h1>
+    <div id="clock"></div>
+  </body>
+</html>
